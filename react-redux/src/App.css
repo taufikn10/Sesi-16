@@ -1,0 +1,23 @@
+.demo {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  font-size: 2rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  padding: 5px;
+  background-color: #3c5186;
+  color: #fff5de;
+}
+
+td {
+  padding: 5px;
+}
