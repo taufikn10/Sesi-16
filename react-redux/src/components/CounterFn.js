@@ -43,6 +43,7 @@ const CounterFn = () => {
       <button id="decrement" onClick={customIncrement}>
         + 10
       </button>
+      {/* API */}
       <hr />
       <button onClick={handleFetchUsers}>Get Users</button>
       <br />
@@ -56,8 +57,8 @@ const CounterFn = () => {
           </tr>
         </thead>
         <tbody>
-          {state.users.map((user, idx) => (
-            <tr key={idx}>
+          {state.users.map((user, index) => (
+            <tr key={index}>
               <td>{user.name}</td>
               <td>{user.username}</td>
               <td>{user.email}</td>
